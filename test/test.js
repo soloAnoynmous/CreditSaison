@@ -51,9 +51,9 @@ describe('calculation.js', function(){
 });
 
 describe('calculation.js', function(){
-	it('when n=k', function(){
-		const result = findAllSubsets("akshayakshayakshayakshayakshayakshay",16;
+	it('when n is very large', function(){
+		const result = findAllSubsets("akshayakshayakshayakshayakshayakshay",16);
 		console.log(result);
-		assert.equal(1, result)
+		assert.equal(7307872110, result)
 	});
 });
